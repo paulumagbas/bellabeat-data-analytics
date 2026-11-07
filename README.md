@@ -46,7 +46,9 @@ neither restricted estimate establishes a within-person or causal relationship.
 - [Cleaning log](documentation/cleaning_log.md)
 - [Data sources and ROCCC](documentation/data_sources_and_roccc.md)
 
-No public Tableau URL is claimed yet. Add it after publishing and viewer testing.
+[Explore the interactive Tableau dashboard](https://public.tableau.com/app/profile/john.paul.lumagbas/viz/Bellabeat_Analysis_Public/ActivityandRecordingPatterns)
+
+Click a participant in the Activity and Sleep chart to highlight their recording-coverage group. Click empty plotting space to reset.
 
 ![Bellabeat dashboard](visualizations/bellabeat_dashboard.png)
 
