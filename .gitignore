@@ -1,0 +1,17 @@
+# Download source data separately; retain originals outside version control.
+Case Study.zip
+dailyActivity_merged.csv
+sleepDay_merged.csv
+*.docx
+*.pdf
+
+# Earlier workbook and temporary reopen test; publish the validated .twbx.
+visualizations/Bellabeat_Analysis.twb
+visualizations/reopen_test/
+
+# Local working output, not repository content.
+github-upload/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

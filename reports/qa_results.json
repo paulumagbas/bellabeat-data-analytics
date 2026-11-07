@@ -1,0 +1,249 @@
+{
+  "checks": [
+    {
+      "check": "source counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "activity key uniqueness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sleep key uniqueness",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all sleep keys match activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "participant quartiles",
+      "passed": true,
+      "detail": [
+        5566.870967741936,
+        7282.966666666666,
+        9519.666666666666
+      ]
+    },
+    {
+      "check": "median independent cross-check",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "quartile independent cross-check",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "step summary export IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "step summary export values",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "same-participant weekday counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "weekday export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sleep export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sleep quartiles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "matched export",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "correlation threshold 1",
+      "passed": true,
+      "detail": -0.0663323518056091
+    },
+    {
+      "check": "correlation threshold 7",
+      "passed": true,
+      "detail": -0.3148490504130191
+    },
+    {
+      "check": "correlation threshold 14",
+      "passed": true,
+      "detail": -0.4268176428837229
+    },
+    {
+      "check": "Tableau CSV dependencies embedded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "only scoped Select highlight action",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "tooltip matches click interaction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "full-size dashboard PNG",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relative Markdown link targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "source count discrepancy documented",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "participant_step_quartiles": [
+    5566.870967741936,
+    7282.966666666666,
+    9519.666666666666
+  ],
+  "quartile_method": "inclusive linear interpolation; no approximate quantile algorithm",
+  "step_iqr": 3952.7956989247305,
+  "weekday_same_participants": [
+    {
+      "weekday_number": 1,
+      "contributing_participants": 32,
+      "recorded_days": 121,
+      "participant_equal_mean_steps": 6950.018229166667
+    },
+    {
+      "weekday_number": 2,
+      "contributing_participants": 32,
+      "recorded_days": 120,
+      "participant_equal_mean_steps": 7785.083333333333
+    },
+    {
+      "weekday_number": 3,
+      "contributing_participants": 32,
+      "recorded_days": 151,
+      "participant_equal_mean_steps": 8074.652083333333
+    },
+    {
+      "weekday_number": 4,
+      "contributing_participants": 32,
+      "recorded_days": 149,
+      "participant_equal_mean_steps": 7559.661458333333
+    },
+    {
+      "weekday_number": 5,
+      "contributing_participants": 32,
+      "recorded_days": 146,
+      "participant_equal_mean_steps": 7426.745833333333
+    },
+    {
+      "weekday_number": 6,
+      "contributing_participants": 32,
+      "recorded_days": 125,
+      "participant_equal_mean_steps": 7432.2265625
+    },
+    {
+      "weekday_number": 7,
+      "contributing_participants": 32,
+      "recorded_days": 124,
+      "participant_equal_mean_steps": 8303.205729166666
+    }
+  ],
+  "correlations": [
+    {
+      "threshold": 1,
+      "participants": 24,
+      "days": 410,
+      "r": -0.0663323518056091
+    },
+    {
+      "threshold": 7,
+      "participants": 16,
+      "days": 384,
+      "r": -0.3148490504130191
+    },
+    {
+      "threshold": 14,
+      "participants": 15,
+      "days": 376,
+      "r": -0.4268176428837229
+    }
+  ],
+  "saved_workbook_actions": [
+    {
+      "caption": "Highlight recording coverage",
+      "activation": {
+        "auto-clear": "true",
+        "type": "on-select"
+      },
+      "source": {
+        "dashboard": "Activity and Recording Patterns",
+        "type": "sheet",
+        "worksheet": "Activity and Sleep"
+      },
+      "parameters": {
+        "exclude": "Sleep Recording Coverage,Average recorded daily steps vary across participants,Weekday Activity",
+        "field-captions": "Recording Coverage Group",
+        "target": "Activity and Recording Patterns"
+      }
+    }
+  ],
+  "saved_workbook_connections": [
+    {
+      "filename": "Sleep Analysis Participant-Level Summary.csv",
+      "embedded": true,
+      "package_path": "Data/Case Study for Data Analytics Portfolio/Sleep Analysis Participant-Level Summary.csv"
+    },
+    {
+      "filename": "weekday_steps_same_participants.csv",
+      "embedded": true,
+      "package_path": "Data/Case Study for Data Analytics Portfolio/weekday_steps_same_participants.csv"
+    },
+    {
+      "filename": "participant_steps_summary.csv",
+      "embedded": true,
+      "package_path": "Data/Case Study for Data Analytics Portfolio/participant_steps_summary.csv"
+    },
+    {
+      "filename": "Activity Sleep Analysis Participant Level Matched Days.csv",
+      "embedded": true,
+      "package_path": "Data/Case Study for Data Analytics Portfolio/Activity Sleep Analysis Participant Level Matched Days.csv"
+    },
+    {
+      "filename": "Activity Sleep Analysis Participant Level Matched Days.csv",
+      "embedded": true,
+      "package_path": "Data/Case Study for Data Analytics Portfolio/Activity Sleep Analysis Participant Level Matched Days.csv"
+    }
+  ],
+  "source_sha256": {
+    "dailyActivity_merged.csv": "4b8f557eb29cd929cee7cc2d2a5e7704578bbffbc42c352e7b0c42bc4f3c6ac8",
+    "sleepDay_merged.csv": "2d4250ca47dfc74263f1b61fe4ba3e338c83faab0d352fb0fefa93464b170e53"
+  },
+  "limits": [
+    "Local independent calculations, not a fresh BigQuery SQL execution.",
+    "XML inspection does not prove runtime highlighting or native export behaviour.",
+    "External HTTP links were not tested by the relative-link checker."
+  ]
+}
